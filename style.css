@@ -94,13 +94,11 @@ a {
     color: #e0b310;
     text-decoration: none;
 }
+
 .hoi {
-width:10px;
-}
-
-
   
 }
+
 a:hover {
     text-decoration: underline;
 }
