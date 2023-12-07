@@ -62,12 +62,13 @@ img {
 
 .item-plaatje1 {
   float:left;
-  width:150px;
+  width:250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-plaatje2 {
-  width:150px;
+  float:left;
+  width:250px;
   padding-right: 15px;
   
 }  
@@ -95,9 +96,6 @@ a {
     text-decoration: none;
 }
 
-.hoi {
-  
-}
 
 a:hover {
     text-decoration: underline;
@@ -110,6 +108,7 @@ a:hover {
     overflow: auto;
     padding: 10px;
     height: 400px;
+   width: 500px;
   }
 
 /* Opmaak voor sub pagina's */
