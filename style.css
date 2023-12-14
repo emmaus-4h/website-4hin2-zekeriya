@@ -24,6 +24,7 @@ html, body {                      /* geldt voor html en body */
   color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
+
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
@@ -66,15 +67,8 @@ img {
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
-.item-plaatje2 {
-  float:left;
-  width:250px;
-  padding-right: 15px;
-  
-}  
-
 .item-tekst {
-  float:right;
+float:right;
   width:450px;
 }
 
@@ -102,6 +96,8 @@ a:hover {
 }
 
 #tekst1 {
+  margin-left: auto;
+  margin-right: auto;
    border: 2px solid;
     border-color: #e0b310;
     background-color: #121111;
@@ -110,6 +106,7 @@ a:hover {
     height: 400px;
    width: 500px;
   }
+
 
 /* Opmaak voor sub pagina's */
 
