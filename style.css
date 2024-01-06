@@ -140,3 +140,128 @@ nav li a:hover {
 nav li a.active {
     background-color: #121111;
 }
+
+#tekst2 {
+margin-left: auto;
+margin-right: auto;
+ border: 2px solid;
+  border-color: #e0b310;
+  background-color: #121111;
+  overflow: auto;
+  padding: 10px;
+  height: 400px;
+ width: 500px;
+}
+
+nav ul {
+  margin:auto;
+  width:fit-content;
+  border:2px solid #e0b310;
+  list-style-type: none;
+  padding: 0;
+  background-color: #121111;
+  overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #121111;
+}
+
+nav li a.active {
+    background-color: #121111;
+}
+
+#tekst3 {
+margin-left: auto;
+margin-right: auto;
+ border: 2px solid;
+  border-color: #e0b310;
+  background-color: #121111;
+  overflow: auto;
+  padding: 10px;
+  height: 400px;
+ width: 500px;
+}
+
+nav ul {
+  margin:auto;
+  width:fit-content;
+  border:2px solid #e0b310;
+  list-style-type: none;
+  padding: 0;
+  background-color: #121111;
+  overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #121111;
+}
+
+nav li a.active {
+    background-color: #121111;
+}
+#tekst4 {
+margin-left: auto;
+margin-right: auto;
+ border: 2px solid;
+  border-color: #e0b310;
+  background-color: #121111;
+  overflow: auto;
+  padding: 10px;
+  height: 400px;
+ width: 500px;
+}
+
+nav ul {
+  margin:auto;
+  width:fit-content;
+  border:2px solid #e0b310;
+  list-style-type: none;
+  padding: 0;
+  background-color: #121111;
+  overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #121111;
+}
+
+nav li a.active {
+    background-color: #121111;
+}
