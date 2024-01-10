@@ -18,7 +18,8 @@
   margin: 0px;                             /* standaard marge 0 */
 }
 
-html, body {                      /* geldt voor html en body */
+html, body {
+  height: 100%;                   /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: #121111;    /* achtergrondkleur lichtgrijs */
   color: #ffffff;               /* tekstkleur donkergrijs */
@@ -98,12 +99,13 @@ a:hover {
 #tekst1 {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
    border: 2px solid;
     border-color: #e0b310;
     background-color: #121111;
     overflow: auto;
     padding: 10px;
-    height: 800px;
+    height: 400px;
    width: 500px;
   }
 
@@ -144,6 +146,7 @@ nav li a.active {
 #tekst2 {
 margin-left: auto;
 margin-right: auto;
+margin-top: 50px;
  border: 2px solid;
   border-color: #e0b310;
   background-color: #121111;
@@ -186,6 +189,7 @@ nav li a.active {
 #tekst3 {
 margin-left: auto;
 margin-right: auto;
+margin-top: 50px;
  border: 2px solid;
   border-color: #e0b310;
   background-color: #121111;
@@ -227,6 +231,7 @@ nav li a.active {
 #tekst4 {
 margin-left: auto;
 margin-right: auto;
+margin-top: 50px;
  border: 2px solid;
   border-color: #e0b310;
   background-color: #121111;
