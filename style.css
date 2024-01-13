@@ -25,6 +25,12 @@ html, body {
   color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
+#hoofdtitel {
+  z-index: 1;
+  margin-right: 1250px;
+  margin-top: 250px;
+  font-size: 3em;
+}
 
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
@@ -33,7 +39,7 @@ div {                             /* geldt voor div */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 100%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -84,10 +90,11 @@ h1, h2, h3 {
 .smalltext {
     text-align: center;
     font-size: 0.7em;
+  margin-top: 90%;
 }
 
 a {
-    color: #e0b310;
+    color: #1396e7;
     text-decoration: none;
 }
 
@@ -97,12 +104,9 @@ a:hover {
 }
 
 #tekst1 {
-  margin-left: auto;
+  margin-left: 75px;
   margin-right: auto;
   margin-top: 50px;
-   border: 2px solid;
-    border-color: #e0b310;
-    background-color: #121111;
     overflow: auto;
     padding: 10px;
     height: 400px;
@@ -116,10 +120,8 @@ a:hover {
 nav ul {
   margin:auto;
   width:fit-content;
-  border:2px solid #e0b310;
   list-style-type: none;
   padding: 0;
-  background-color: #121111;
   overflow: hidden;
 }
 
@@ -140,7 +142,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: #121111;
+    background-color: #a74949;
 }
 
 #tekst2 {
@@ -148,7 +150,6 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 50px;
  border: 2px solid;
-  border-color: #e0b310;
   background-color: #121111;
   overflow: auto;
   padding: 10px;
@@ -159,7 +160,6 @@ margin-top: 50px;
 nav ul {
   margin:auto;
   width:fit-content;
-  border:2px solid #e0b310;
   list-style-type: none;
   padding: 0;
   background-color: #121111;
@@ -191,7 +191,6 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 50px;
  border: 2px solid;
-  border-color: #e0b310;
   background-color: #121111;
   overflow: auto;
   padding: 10px;
@@ -202,7 +201,6 @@ margin-top: 50px;
 nav ul {
   margin:auto;
   width:fit-content;
-  border:2px solid #e0b310;
   list-style-type: none;
   padding: 0;
   background-color: #121111;
