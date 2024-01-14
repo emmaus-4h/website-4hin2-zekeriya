@@ -25,6 +25,46 @@ html, body {
   color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
+.home {
+background: url(https://wallpapers.com/images/hd/cristiano-ronaldo-fifa-17-xx1hcw4aqvwujl0r.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.index {
+ background-image: url("https://www.hdwallpapers.in/download/backside_of_cristiano_ronaldo_4k_hd_ronaldo-HD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+
+.info {
+   background-image: url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2e9bb6830f0ab51c/637cd15418c4ea11e1958078/Ronaldo(21).jpg?auto=webp&format=pjpg&width=3840&quality=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+
+.overmij {
+   background-image: url("https://www.hdwallpapers.in/download/young_cristiano_ronaldo_is_wearing_dark_maroon_sports_dress_standing_in_colorful_blur_background_hd_ronaldo-HD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+
+.ronaldo {
+   background-image: url("https://wallpapers.com/images/hd/cristiano-ronaldo-manchester-united-championship-trophy-xde083weco13tm3i.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+
 #hoofdtitel {
   z-index: 1;
   margin-right: 1250px;
@@ -32,9 +72,11 @@ html, body {
   font-size: 3em;
 }
 
+
+
 .zekeriya {
   margin-left: 1250px;
-  margin-top: 250px;
+  margin-top: 350px;
 }
 
 div {                             /* geldt voor div */
@@ -56,6 +98,7 @@ main {
   text-align: justify;            /* tekst uitvullen */}
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+  font-family: Arial, Helvetica, sans-serif;
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
 } 
@@ -72,12 +115,6 @@ img {
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
-
-.item-plaatje1 {
-  float:left;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-}
 
 .item-tekst {
 float:right;
@@ -115,6 +152,7 @@ a:hover {
 
 
 #tekst1 {
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 75px;
   margin-right: auto;
     overflow: auto;
@@ -150,21 +188,28 @@ nav li a {
 }
 
 nav li a:hover {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #0b4715;
 }
 
 nav li a.active {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #a01818;
 }
 
 .informatie {
   margin-left: 1300px;
-  margin-top: 350px ;
+  margin-top: 300px ;
 }
 
+.sui {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+
 #tekst2 {
+font-family: Arial, Helvetica, sans-serif;
 margin-left: auto;
 margin-right: 50px;
   overflow: auto;
@@ -186,22 +231,21 @@ nav li a {
 }
 
 nav li a:hover {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #0b4715;
 }
 
 nav li a.active {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #a01818;
 }
 
 .leven {
   margin-right: 1100px;
-  margin-top: 50px ;
+  margin-top: 275px ;
 }
 
 
 #tekst3 {
+font-family: Arial, Helvetica, sans-serif;
 margin-left: 150px;
 margin-right: auto;
   overflow: auto;
@@ -223,17 +267,16 @@ nav li a {
 }
 
 nav li a:hover {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #0b4715;
 }
 
 nav li a.active {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #a01818;
 
 
 }
 #tekst4 {
+font-family: Arial, Helvetica, sans-serif;
 margin-left: 250px;
 margin-right: auto;
   overflow: auto;
@@ -260,11 +303,9 @@ nav li a {
 }
 
 nav li a:hover {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #0b4715;
 }
 
 nav li a.active {
-   border-radius: 25px;
-    background-color: #636363;
+    background-color: #a01818;
 }
