@@ -32,6 +32,11 @@ html, body {
   font-size: 3em;
 }
 
+.zekeriya {
+  margin-left: 1250px;
+  margin-top: 250px;
+}
+
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
@@ -90,12 +95,11 @@ h1, h2, h3 {
 .smalltext {
     text-align: center;
     font-size: 0.7em;
-  margin-top: 90%;
 }
 
 a {
-    color: #1396e7;
-    text-decoration: none;
+    color: #2779F6;
+    text-decoration: underline;
 }
 
 
@@ -103,10 +107,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.carrière {
+  margin-right: 1270px;
+  margin-top: 250px;
+}
+
+
+
 #tekst1 {
   margin-left: 75px;
   margin-right: auto;
-  margin-top: 50px;
     overflow: auto;
     padding: 10px;
     height: 400px;
@@ -118,7 +128,9 @@ a:hover {
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
-  margin:auto;
+   border-radius: 25px;
+  margin-left:auto;
+  margin-right:0px;
   width:fit-content;
   list-style-type: none;
   padding: 0;
@@ -131,39 +143,34 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
 }
 
 nav li a.active {
-    background-color: #a74949;
+   border-radius: 25px;
+    background-color: #636363;
+}
+
+.informatie {
+  margin-left: 1300px;
+  margin-top: 350px ;
 }
 
 #tekst2 {
 margin-left: auto;
-margin-right: auto;
-margin-top: 50px;
- border: 2px solid;
-  background-color: #121111;
+margin-right: 50px;
   overflow: auto;
   padding: 10px;
   height: 400px;
  width: 500px;
-}
-
-nav ul {
-  margin:auto;
-  width:fit-content;
-  list-style-type: none;
-  padding: 0;
-  background-color: #121111;
-  overflow: hidden;
 }
 
 nav ul li {
@@ -172,39 +179,35 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
 }
 
 nav li a.active {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
 }
+
+.leven {
+  margin-right: 1100px;
+  margin-top: 50px ;
+}
+
 
 #tekst3 {
-margin-left: auto;
+margin-left: 150px;
 margin-right: auto;
-margin-top: 50px;
- border: 2px solid;
-  background-color: #121111;
   overflow: auto;
   padding: 10px;
   height: 400px;
  width: 500px;
-}
-
-nav ul {
-  margin:auto;
-  width:fit-content;
-  list-style-type: none;
-  padding: 0;
-  background-color: #121111;
-  overflow: hidden;
 }
 
 nav ul li {
@@ -213,41 +216,36 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
 }
 
 nav li a.active {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
+
+
 }
 #tekst4 {
-margin-left: auto;
+margin-left: 250px;
 margin-right: auto;
-margin-top: 50px;
- border: 2px solid;
-  border-color: #e0b310;
-  background-color: #121111;
   overflow: auto;
   padding: 10px;
   height: 400px;
  width: 500px;
 }
 
-nav ul {
-  margin:auto;
-  width:fit-content;
-  border:2px solid #e0b310;
-  list-style-type: none;
-  padding: 0;
-  background-color: #121111;
-  overflow: hidden;
-}
+.trofee {
+    margin-right: 900px;
+    margin-top: 350px ;
+  }
 
 nav ul li {
     float: left;
@@ -255,16 +253,18 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
 }
 
 nav li a.active {
-    background-color: #121111;
+   border-radius: 25px;
+    background-color: #636363;
 }
